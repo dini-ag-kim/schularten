@@ -1,0 +1,71 @@
+@base <http://w3id.org/kim/schulformen/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix eduLevel: <http://w3id.org/openeduhub/vocabs/educationalLevel/> .
+
+<> a skos:ConceptScheme;
+    dct:title "Schulformen"@de;
+    dct:description "Eine Wertelliste für Schulformen im deutschen Schulsystem."@de;
+    dct:publisher "DINI-AG-KIM OER-Metadatengruppe" ;
+    dct:created "2021-04-22"^^xsd:date;
+    dct:modified "2020-04-22"^^xsd:date;
+    dct:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+    vann:preferredNamespaceUri "https://w3id.org/kim/schulformen/" ;
+    vann:preferredNamespacePrefix "school";
+    skos:hasTopConcept <s01>, <s02>, <s03>, <s04>, <s05>, <s06>, <s07>, <s08>, <s09> .
+
+<s01> a skos:Concept ;
+    skos:prefLabel "Kita/Vorschule"@de ;
+    skos:topConceptOf <> .
+
+<s02> a skos:Concept ;
+    skos:prefLabel "Grundschule"@de ;
+    skos:narrowMatch eduLevel:1 ;
+    skos:narrowMatch eduLevel:2 ;
+    skos:narrowMatch eduLevel:3 ;
+    skos:narrowMatch eduLevel:4 ;
+    skos:topConceptOf <> .
+
+<s03> a skos:Concept ;
+    skos:prefLabel "Hauptschule"@de ;
+    skos:narrowMatch eduLevel:5 ;
+    skos:narrowMatch eduLevel:6 ;
+    skos:narrowMatch eduLevel:7 ;
+    skos:narrowMatch eduLevel:8 ;
+    skos:narrowMatch eduLevel:9 ;
+    skos:narrowMatch eduLevel:10 ;
+    skos:topConceptOf <> .
+
+<s04> a skos:Concept ;
+    skos:prefLabel "Realschule"@de ;
+    skos:narrowMatch eduLevel:5 ;
+    skos:narrowMatch eduLevel:6 ;
+    skos:narrowMatch eduLevel:7 ;
+    skos:narrowMatch eduLevel:8 ;
+    skos:narrowMatch eduLevel:9 ;
+    skos:narrowMatch eduLevel:10 ;
+    skos:topConceptOf <> .
+
+<s05> a skos:Concept ;
+    skos:prefLabel "Gesamtschule"@de ;
+    skos:topConceptOf <> .
+
+<s06> a skos:Concept ;
+    skos:prefLabel "Förderschule"@de ;
+    skos:topConceptOf <> .
+
+<s07> a skos:Concept ;
+    skos:prefLabel "Oberschule"@de ;
+    skos:topConceptOf <> ;
+    .
+
+<s08> a skos:Concept ;
+    skos:prefLabel "Gymnasium"@de ;
+    skos:topConceptOf <> ;
+    .
+
+<s09> a skos:Concept ;
+    skos:prefLabel "Gemeinschaftsschule"@de ;
+    skos:topConceptOf <> ;
+    .
