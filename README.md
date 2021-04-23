@@ -25,7 +25,7 @@ B).
 
 | ID    | Vorzugsbezeichnung  | Alternativbezeichnungen   |
 |-------|-------------------  | --------                  |
-| s01   | "Kita/Vorschule"    |                           |
+| s01   | "Kindergarten"      |                           |
 | s02   | "Grundschule"       |                           |
 | s03   | "Hauptschule"       |                           |
 | s04   | "Realschule"        |         |
