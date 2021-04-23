@@ -3,11 +3,12 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#>.
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix eduLevel: <http://w3id.org/openeduhub/vocabs/educationalLevel/> .
+@prefix vann: <http://purl.org/vocab/vann/> .
 
 <> a skos:ConceptScheme;
     dct:title "Schulformen"@de;
     dct:description "Eine Wertelliste für Schulformen im deutschen Schulsystem."@de;
-    dct:publisher "DINI-AG-KIM OER-Metadatengruppe" ;
+    dct:publisher "DINI-AG-KIM OER-Metadatengruppe"@de ;
     dct:created "2021-04-22"^^xsd:date;
     dct:modified "2020-04-22"^^xsd:date;
     dct:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
@@ -57,15 +58,12 @@
 
 <s07> a skos:Concept ;
     skos:prefLabel "Oberschule"@de ;
-    skos:topConceptOf <> ;
-    .
+    skos:topConceptOf <> .
 
 <s08> a skos:Concept ;
     skos:prefLabel "Gymnasium"@de ;
-    skos:topConceptOf <> ;
-    .
+    skos:topConceptOf <> .
 
 <s09> a skos:Concept ;
     skos:prefLabel "Gemeinschaftsschule"@de ;
-    skos:topConceptOf <> ;
-    .
+    skos:topConceptOf <> .
