@@ -16,7 +16,7 @@
     skos:hasTopConcept <s01>, <s02>, <s03>, <s04>, <s05>, <s06>, <s07>, <s08>, <s09> .
 
 <s01> a skos:Concept ;
-    skos:prefLabel "Kita/Vorschule"@de ;
+    skos:prefLabel "Kindergarten"@de ;
     skos:topConceptOf <> .
 
 <s02> a skos:Concept ;
