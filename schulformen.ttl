@@ -69,9 +69,6 @@
 
 <s05> a skos:Concept ;
     skos:prefLabel "Sekundarschule"@de ;
-    skos:altLabel "Integrierte Sekundarschule"@de ;
-    skos:altLabel "Regionalschule"@de ;
-    skos:altLabel "Stadtteilschule"@de ;
     skos:closeMatch isced97:level2 ;
     skos:closeMatch isced2011:level2 ;
     skos:closeMatch eduLevel:level_2 ;
