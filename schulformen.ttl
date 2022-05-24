@@ -6,6 +6,7 @@
 @prefix isced97: <https://w3id.org/isced/1997/> .
 @prefix isced2011: <https://w3id.org/isced/2011/> .
 @prefix eduLevel: <http://w3id.org/kim/educationalLevel/> .
+@prefix oehEduLevel: <http://w3id.org/openeduhub/vocabs/educationalLevel/> .
 @prefix vann: <http://purl.org/vocab/vann/> .
 
 <> a skos:ConceptScheme;
@@ -33,10 +34,10 @@
     skos:closeMatch isced97:level1 ;
     skos:closeMatch isced2011:level1 ;
     skos:closeMatch eduLevel:level_1 ;
-    skos:narrowMatch eduLevel:1 ;
-    skos:narrowMatch eduLevel:2 ;
-    skos:narrowMatch eduLevel:3 ;
-    skos:narrowMatch eduLevel:4 ;
+    skos:narrowMatch oehEduLevel:1 ;
+    skos:narrowMatch oehEduLevel:2 ;
+    skos:narrowMatch oehEduLevel:3 ;
+    skos:narrowMatch oehEduLevel:4 ;
     skos:topConceptOf <> .
 
 <s03> a skos:Concept ;
@@ -46,12 +47,12 @@
     skos:closeMatch isced97:level2 ;
     skos:closeMatch isced2011:level2 ;
     skos:closeMatch eduLevel:level_2 ;
-    skos:narrowMatch eduLevel:5 ;
-    skos:narrowMatch eduLevel:6 ;
-    skos:narrowMatch eduLevel:7 ;
-    skos:narrowMatch eduLevel:8 ;
-    skos:narrowMatch eduLevel:9 ;
-    skos:narrowMatch eduLevel:10 ;
+    skos:narrowMatch oehEduLevel:5 ;
+    skos:narrowMatch oehEduLevel:6 ;
+    skos:narrowMatch oehEduLevel:7 ;
+    skos:narrowMatch oehEduLevel:8 ;
+    skos:narrowMatch oehEduLevel:9 ;
+    skos:narrowMatch oehEduLevel:10 ;
     skos:topConceptOf <> .
 
 <s04> a skos:Concept ;
@@ -59,12 +60,12 @@
     skos:closeMatch isced97:level2 ;
     skos:closeMatch isced2011:level2 ;
     skos:closeMatch eduLevel:level_2 ;
-    skos:narrowMatch eduLevel:5 ;
-    skos:narrowMatch eduLevel:6 ;
-    skos:narrowMatch eduLevel:7 ;
-    skos:narrowMatch eduLevel:8 ;
-    skos:narrowMatch eduLevel:9 ;
-    skos:narrowMatch eduLevel:10 ;
+    skos:narrowMatch oehEduLevel:5 ;
+    skos:narrowMatch oehEduLevel:6 ;
+    skos:narrowMatch oehEduLevel:7 ;
+    skos:narrowMatch oehEduLevel:8 ;
+    skos:narrowMatch oehEduLevel:9 ;
+    skos:narrowMatch oehEduLevel:10 ;
     skos:topConceptOf <> .
 
 <s10> a skos:Concept ;
@@ -72,12 +73,12 @@
     skos:closeMatch isced97:level2 ;
     skos:closeMatch isced2011:level2 ;
     skos:closeMatch eduLevel:level_2 ;
-    skos:narrowMatch eduLevel:5 ;
-    skos:narrowMatch eduLevel:6 ;
-    skos:narrowMatch eduLevel:7 ;
-    skos:narrowMatch eduLevel:8 ;
-    skos:narrowMatch eduLevel:9 ;
-    skos:narrowMatch eduLevel:10 ;
+    skos:narrowMatch oehEduLevel:5 ;
+    skos:narrowMatch oehEduLevel:6 ;
+    skos:narrowMatch oehEduLevel:7 ;
+    skos:narrowMatch oehEduLevel:8 ;
+    skos:narrowMatch oehEduLevel:9 ;
+    skos:narrowMatch oehEduLevel:10 ;
     skos:topConceptOf <> .
 
 <s05> a skos:Concept ;
@@ -88,15 +89,15 @@
     skos:closeMatch isced97:level3 ;
     skos:closeMatch isced2011:level3 ;
     skos:closeMatch eduLevel:level_3 ;
-    skos:narrowMatch eduLevel:5 ;
-    skos:narrowMatch eduLevel:6 ;
-    skos:narrowMatch eduLevel:7 ;
-    skos:narrowMatch eduLevel:8 ;
-    skos:narrowMatch eduLevel:9 ;
-    skos:narrowMatch eduLevel:10 ;
-    skos:narrowMatch eduLevel:11 ;
-    skos:narrowMatch eduLevel:12 ;
-    skos:narrowMatch eduLevel:13 ;
+    skos:narrowMatch oehEduLevel:5 ;
+    skos:narrowMatch oehEduLevel:6 ;
+    skos:narrowMatch oehEduLevel:7 ;
+    skos:narrowMatch oehEduLevel:8 ;
+    skos:narrowMatch oehEduLevel:9 ;
+    skos:narrowMatch oehEduLevel:10 ;
+    skos:narrowMatch oehEduLevel:11 ;
+    skos:narrowMatch oehEduLevel:12 ;
+    skos:narrowMatch oehEduLevel:13 ;
     skos:topConceptOf <> .
 
 <s08> a skos:Concept ;
@@ -107,15 +108,15 @@
     skos:closeMatch isced97:level3 ;
     skos:closeMatch isced2011:level3 ;
     skos:closeMatch eduLevel:level_3 ;
-    skos:narrowMatch eduLevel:5 ;
-    skos:narrowMatch eduLevel:6 ;
-    skos:narrowMatch eduLevel:7 ;
-    skos:narrowMatch eduLevel:8 ;
-    skos:narrowMatch eduLevel:9 ;
-    skos:narrowMatch eduLevel:10 ;
-    skos:narrowMatch eduLevel:11 ;
-    skos:narrowMatch eduLevel:12 ;
-    skos:narrowMatch eduLevel:13 ;
+    skos:narrowMatch oehEduLevel:5 ;
+    skos:narrowMatch oehEduLevel:6 ;
+    skos:narrowMatch oehEduLevel:7 ;
+    skos:narrowMatch oehEduLevel:8 ;
+    skos:narrowMatch oehEduLevel:9 ;
+    skos:narrowMatch oehEduLevel:10 ;
+    skos:narrowMatch oehEduLevel:11 ;
+    skos:narrowMatch oehEduLevel:12 ;
+    skos:narrowMatch oehEduLevel:13 ;
     skos:topConceptOf <> .
 
 <s06> a skos:Concept ;
