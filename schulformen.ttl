@@ -17,7 +17,7 @@
     dct:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
     vann:preferredNamespaceUri "https://w3id.org/kim/schulformen/" ;
     vann:preferredNamespacePrefix "school";
-    skos:hasTopConcept <s01>, <s02>, <s03>, <s04>, <s05>, <s06>, <s07>, <s08>, <s09>, <s10>, <s11>, <s12>, <s13> .
+    skos:hasTopConcept <s01>, <s02>, <s03>, <s04>, <s05>, <s06>, <s07>, <s08>, <s09>, <s10>, <s11>, <s12>, <s13> , <s14>, <s15> .
 
 <s01> a skos:Concept ;
     skos:prefLabel "Vorschule"@de ;
@@ -67,7 +67,7 @@
     skos:narrowMatch eduLevel:10 ;
     skos:topConceptOf <> .
 
-<s05> a skos:Concept ;
+<s10> a skos:Concept ;
     skos:prefLabel "Sekundarschule"@de ;
     skos:closeMatch isced97:level2 ;
     skos:closeMatch isced2011:level2 ;
@@ -80,7 +80,7 @@
     skos:narrowMatch eduLevel:10 ;
     skos:topConceptOf <> .
 
-<s06> a skos:Concept ;
+<s05> a skos:Concept ;
     skos:prefLabel "Gesamtschule"@de ;
     skos:closeMatch isced97:level2 ;
     skos:closeMatch isced2011:level2 ;
@@ -99,7 +99,7 @@
     skos:narrowMatch eduLevel:13 ;
     skos:topConceptOf <> .
 
-<s07> a skos:Concept ;
+<s08> a skos:Concept ;
     skos:prefLabel "Gymnasium"@de ;
     skos:closeMatch isced97:level2 ;
     skos:closeMatch isced2011:level2 ;
@@ -118,39 +118,50 @@
     skos:narrowMatch eduLevel:13 ;
     skos:topConceptOf <> .
 
-<s08> a skos:Concept ;
+<s06> a skos:Concept ;
     skos:prefLabel "Förderschule"@de ;
     skos:topConceptOf <> .
 
-<s09> a skos:Concept ;
-    skos:prefLabel "Berufsfachschule"@de ;
-    skos:closeMatch isced97:level3 ;
-    skos:closeMatch isced2011:level3 ;
-    skos:closeMatch eduLevel:level_3 ;
+<s07> a skos:Concept ;
+    skos:prefLabel "Oberschule"@de ;
     skos:topConceptOf <> .
 
-<s10> a skos:Concept ;
-    skos:prefLabel "Berufsschule"@de ;
+<s09> a skos:Concept ;
+    skos:prefLabel "Gemeinschaftsschule"@de ;
     skos:closeMatch isced97:level3 ;
     skos:closeMatch isced2011:level3 ;
     skos:closeMatch eduLevel:level_3 ;
     skos:topConceptOf <> .
 
 <s11> a skos:Concept ;
-    skos:prefLabel "Fachoberschule"@de ;
+    skos:prefLabel "Berufsfachschule"@de ;
     skos:closeMatch isced97:level3 ;
     skos:closeMatch isced2011:level3 ;
     skos:closeMatch eduLevel:level_3 ;
     skos:topConceptOf <> .
 
 <s12> a skos:Concept ;
-    skos:prefLabel "Berufliches Gymnasium"@de ;
+    skos:prefLabel "Berufsschule"@de ;
     skos:closeMatch isced97:level3 ;
     skos:closeMatch isced2011:level3 ;
     skos:closeMatch eduLevel:level_3 ;
     skos:topConceptOf <> .
 
 <s13> a skos:Concept ;
+    skos:prefLabel "Fachoberschule"@de ;
+    skos:closeMatch isced97:level3 ;
+    skos:closeMatch isced2011:level3 ;
+    skos:closeMatch eduLevel:level_3 ;
+    skos:topConceptOf <> .
+
+<s14> a skos:Concept ;
+    skos:prefLabel "Berufliches Gymnasium"@de ;
+    skos:closeMatch isced97:level3 ;
+    skos:closeMatch isced2011:level3 ;
+    skos:closeMatch eduLevel:level_3 ;
+    skos:topConceptOf <> .
+
+<s15> a skos:Concept ;
     skos:prefLabel "Privat- und Ersatzschule"@de ;
     skos:altLabel "Privatschule"@de ;
     skos:altLabel "Ersatzschule"@de ;
