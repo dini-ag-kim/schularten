@@ -23,3 +23,7 @@ Mitarbeit und Kontakt findet am besten statt über [Issues](https://github.com/d
 ## Glossar
 
 https://w3id.org/kim/schularten/   
+
+## Informationen
+
+- [KMK-Definitionenkatalog](https://www.kmk.org/dokumentation-statistik/statistik/schulstatistik/definitionenkatalog.html)
