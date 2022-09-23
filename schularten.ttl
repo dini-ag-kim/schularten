@@ -1,4 +1,4 @@
-@base <http://w3id.org/kim/schulformen/> .
+@base <https://w3id.org/kim/schularten/> .
 @prefix dct: <http://purl.org/dc/terms/> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#>.
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
@@ -10,24 +10,15 @@
 @prefix vann: <http://purl.org/vocab/vann/> .
 
 <> a skos:ConceptScheme;
-    dct:title "Schulformen"@de;
-    dct:description "Eine Wertelliste für Schulformen im deutschen Schulsystem."@de;
+    dct:title "Schularten"@de;
+    dct:description "Eine Wertelliste für Schularten im deutschen Schulsystem."@de;
     dct:publisher "DINI-AG-KIM OER-Metadatengruppe"@de ;
     dct:created "2021-04-22"^^xsd:date;
     dct:modified "2022-05-24"^^xsd:date;
     dct:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
-    vann:preferredNamespaceUri "https://w3id.org/kim/schulformen/" ;
+    vann:preferredNamespaceUri "https://w3id.org/kim/schularten/" ;
     vann:preferredNamespacePrefix "school";
-    skos:hasTopConcept <s01>, <s02>, <s03>, <s04>, <s05>, <s06>, <s07>, <s08>, <s09>, <s10>, <s11>, <s12>, <s13> , <s14>, <s15> .
-
-<s01> a skos:Concept ;
-    skos:prefLabel "Vorschule"@de ;
-    skos:altLabel "Kindergarten"@de ;
-    skos:altLabel "Kindertagesstätte"@de ;
-    skos:closeMatch isced97:level0 ;
-    skos:closeMatch isced2011:level0 ;
-    skos:closeMatch eduLevel:level_0 ;
-    skos:topConceptOf <> .
+    skos:hasTopConcept <s02>, <s03>, <s04>, <s05>, <s06>, <s07>, <s08>, <s09>, <s10>, <s11>, <s12>, <s13> , <s14>, <s15> .
 
 <s02> a skos:Concept ;
     skos:prefLabel "Grundschule"@de ;
@@ -157,6 +148,7 @@
 
 <s14> a skos:Concept ;
     skos:prefLabel "Berufliches Gymnasium"@de ;
+    skos:altLabel "Fachgymnasium"@de ;
     skos:closeMatch isced97:level3 ;
     skos:closeMatch isced2011:level3 ;
     skos:closeMatch eduLevel:level_3 ;
