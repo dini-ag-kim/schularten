@@ -18,7 +18,7 @@
     dct:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
     vann:preferredNamespaceUri "https://w3id.org/kim/schularten/" ;
     vann:preferredNamespacePrefix "school";
-    skos:hasTopConcept <s02>, <s03>, <s04>, <s05>, <s06>, <s07>, <s08>, <s09>, <s10>, <s11>, <s12>, <s13> , <s14>, <s15> .
+    skos:hasTopConcept <s02>, <s03>, <s04>, <s05>, <s06>, <s07>, <s08>, <s09>, <s10>, <s11>, <s12>, <s13> , <s14>, <s15>, <s16> .
 
 <s02> a skos:Concept ;
     skos:prefLabel "Grundschule"@de ;
@@ -159,4 +159,9 @@
     skos:altLabel "Privatschule"@de ;
     skos:altLabel "Ersatzschule"@de ;
     skos:altLabel "Freie Schule"@de ;
+    skos:topConceptOf <> .
+
+<s16> a skos:Concept ;
+    skos:prefLabel "Abendgymnasium"@de ;
+    skos:altLabel "Kolleg"@de ;
     skos:topConceptOf <> .
