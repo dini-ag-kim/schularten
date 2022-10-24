@@ -11,7 +11,7 @@
 
 <> a skos:ConceptScheme;
     dct:title "Schularten"@de;
-    dct:description "Eine Wertelliste für Schularten im deutschen Schulsystem."@de;
+    dct:description "Eine Wertelliste für Schularten im deutschen Schulsystem. Eine Schulart zeichnet sich dadurch aus, dass sie im Hinblick auf Lehrpläne, Bildungsziele und Qualifkationsniveau einen eigenständigen Charakter besitzt. Sie muss dazu keine verwaltungstechnische eigenständige Organisationseinheit sein."@de;
     dct:publisher "DINI-AG-KIM OER-Metadatengruppe"@de ;
     dct:created "2021-04-22"^^xsd:date;
     dct:modified "2022-05-24"^^xsd:date;
